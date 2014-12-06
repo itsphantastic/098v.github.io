@@ -77,10 +77,10 @@
 }
 
 body { margin: 0; }
-div#slider { overflow: hidden; }
-dive#slider figure img { width: 20%;
+div#slideshow { overflow: hidden; }
+dive#slideshow figure img { width: 20%;
 float: left; }
-div#slider figure {
+div#slideshow figure {
   position: relative;
   width: 500%;
   margin: 0;
