@@ -78,8 +78,7 @@
 
 body { margin: 0; }
 div#slideshow { overflow: hidden; }
-dive#slideshow figure img { width: 20%;
-float: left; }
+dive#slideshow figure img { width: 20%; float: left; }
 div#slideshow figure {
   position: relative;
   width: 500%;
