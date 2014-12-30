@@ -63,9 +63,16 @@
     font-size: 15px;
     margin-bottom: 13px;
 }
+
 .footer {
     color: #5a5a5a;
     font-size: 75%;
     text-align: center;
     line-height: 3em;
+}
+
+.who {
+    color: #2c3e50;
+    font-size: 200%;
+    font-family: 'Helvetica-Neue', sans-serif;
 }
