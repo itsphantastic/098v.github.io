@@ -70,6 +70,7 @@
     background-color: #efefef;
     font-size: 75%;
     position: relative;
+    left: 10px;
     line-height: 3em;
     bottom: 0px;
 }
