@@ -71,6 +71,10 @@
     line-height: 3em;
 }
 
+.about {
+    background-color: #efefef;
+}
+
 .who {
     background-color: #efefef;
     color: #2c3e50;
