@@ -63,3 +63,10 @@
     font-size: 15px;
     margin-bottom: 13px;
 }
+#footer {
+    background-color: #5a5a5a;
+    color: #FFF;
+    font-size: 200%;
+    text-align: center;
+    line-height: 3em;
+}
