@@ -99,14 +99,14 @@
   width: 805px;
   height: 320px;
   overflow: hidden;
-  margin: 0px auto;
+  margin: 100px auto;
   box-shadow: 0 0 10px 1px rbga(0, 0, 0, 0.35);
   -webkit-box-shadow: 0 0 10px 1px rbga(0, 0, 0, 0.35);
   -moz-box-shadow: 0 0 10px 1px rbga(0, 0, 0, 0.35);
 }
 
 .gallery ul {
-  width: 2000px;
+  width: 200px;
 }
 
 .gallery li {
