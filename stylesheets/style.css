@@ -68,7 +68,8 @@
     color: #5a5a5a;
     background-color: #efefef;
     font-size: 75%;
-    text-align: center;
+    position: relative;
+    left: 10px;
     line-height: 3em;
 }
 
@@ -89,6 +90,6 @@
     font-family: 'Helvetica-Neue', sans-serif
 }
 
-.work i {
-    position: relative;
+.footer {
+    position: ;
 }
