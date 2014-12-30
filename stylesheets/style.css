@@ -88,3 +88,7 @@
     font-size: 200%;
     font-family: 'Helvetica-Neue', sans-serif
 }
+
+.work i {
+    position: relative;
+}
