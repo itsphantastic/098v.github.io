@@ -66,12 +66,15 @@
 }
 
 .footer {
-    color: #5a5a5a;
     background-color: #efefef;
-    font-size: 75%;
+    line-height: 3em;
+}
+
+.footer p {
+    color: #5a5a5a;
+    font-size: 70%;
     position: relative;
     left: 10px;
-    line-height: 3em;
     bottom: 0px;
 }
 
