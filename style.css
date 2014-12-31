@@ -1,0 +1,115 @@
+.nav a {
+color: #5a5a5a;
+font-size: 11px;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+padding: 14px 10px;
+text-transform: uppercase;
+}
+.nav li {
+display: inline;
+}
+.jumbotron {
+background-image:url('http://i.imgur.com/3k1pThT.jpg');
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.jumbotron .container {
+position: relative;
+top:40px;
+}
+.jumbotron h1 {
+color: #fff;
+font-size: 48px;
+font-family: 'Helvetica-Neue', sans-serif;
+font-weight: Lighter;
+}
+.jumbotron p {
+font-size: 20px;
+color: #fff;
+}
+.learn-more {
+background-color: #f7f7f7;
+}
+.learn-more h3 {
+font-family: 'Helvetica', sans-serif;
+font-size: 20px;
+font-weight: Lighter;
+}
+.learn-more a {
+color: #00b0ff;
+}
+.sample-art {
+background-color: #efefef;
+border-bottom: 1px solid #dbdbdb;
+}
+.sample-art h2 {
+color: #393c3d;
+font-size: 24px;
+}
+.sample-art p {
+font-size: 15px;
+margin-bottom: 13px;
+}
+.footer {
+background-color: #efefef;
+line-height: 3em;
+}
+.footer p {
+color: #5a5a5a;
+font-size: 70%;position: relative;bottom: 0px;
+}
+.about {
+background-color: #efefef;
+text-align: center;
+}
+.who {
+color: #2c3e50;
+font-size: 200%;
+font-family: 'Helvetica-Neue', sans-serif;
+}
+.story {
+color: #2c3e50;
+font-size: 200%;
+font-family: 'Helvetica-Neue', sans-serif
+}
+.c4d_gallery{
+width: 640px;
+position: relative;
+padding-top: 320px;
+margin: 100px auto;
+box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.c4d_gallery>img{
+position: absolute;
+left: 0; top: 0;
+transition: all 0.5s;
+}
+.c4d_gallery input[name='switch'] {
+display: none;
+}
+.c4d_gallery label {
+margin: 18px 0 0 18px;
+border: 3px solid #999;
+float: left;
+cursor: pointer;
+transition: all 0.5s;
+opacity: 0.6;
+}
+.c4d_gallery label img{
+display: block;
+}
+.c4d_gallery input[name='switch']:checked+label {
+border-color: #666;
+opacity: 1;
+}
+.c4d_gallery input[name='switch'] ~ img {
+opacity: 0;
+transform: scale(1.1);
+}
+.c4d_gallery input[name='switch']:checked+label+img {
+opacity: 1;
+transform: scale(1);
+}
