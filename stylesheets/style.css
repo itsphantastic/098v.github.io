@@ -95,57 +95,7 @@
   font-family: 'Helvetica-Neue', sans-serif
 }
 
-.gallery {
-  width: 805px;
-  height: 320px;
-  overflow: hidden;
-  margin: 100px auto;
-  box-shadow: 0 0 10px 1px rbga(0, 0, 0, 0.35);
-}
-
-.gallery ul {
-  width: 2000px;
-}
-
-.gallery li {
-  position: relative;
-  display: block;
-  width: 160px;
-  float: left;
-  border-left: 1px solid #888;
-  box-shadow: 0 0 25px 10px rbga(0, 0, 0, 0.5);
-  transition: all 0.5s;
-}
-
-.gallery ul:hover li {
-  width: 40px;
-}
-
-.gallery ul li:hover {
-  width: 640px;
-}
-
-.gallery li img {
-  display: block;
-}
-
-.name {
-  background rbga(0, 0, 0, 0.5)
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 640px;
-}
-
-.name a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
-  font-size: 16px;
-}
-
-.gallery{
+.c4d_gallery{
 	width: 640px;
 	position: relative;
 	padding-top: 320px;
@@ -153,17 +103,17 @@
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
-.gallery>img{
+.c4d_gallery>img{
 	position: absolute;
 	left: 0; top: 0;
 	transition: all 0.5s;
 }
 
-.gallery input[name='switch'] {
+.c4d_gallery input[name='switch'] {
 	display: none;
 }
 
-.gallery label {
+.c4d_gallery label {
 	margin: 18px 0 0 18px;
 	border: 3px solid #999;
 	float: left;
@@ -172,21 +122,21 @@
 	opacity: 0.6;
 }
 
-.gallery label img{
+.c4d_gallery label img{
 	display: block;
 }
 
-.gallery input[name='switch']:checked+label {
+.c4d_gallery input[name='switch']:checked+label {
 	border-color: #666;
 	opacity: 1;
 }
 
-.gallery input[name='switch'] ~ img {
+.c4d_gallery input[name='switch'] ~ img {
 	opacity: 0;
 	transform: scale(1.1);
 }
 
-.gallery input[name='switch']:checked+label+img {
+.c4d_gallery input[name='switch']:checked+label+img {
 	opacity: 1;
 	transform: scale(1);
 }
