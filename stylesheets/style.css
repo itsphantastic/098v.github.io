@@ -12,32 +12,29 @@
 }
 
 .nav ul {
-	text-align: left;
-	display: inline;
 	margin: 0;
-	padding: 15px 4px 17px 0;
+	padding: 14px 10px;
 	list-style: none;
 }
 
 .nav ul li {
-	font: bold 12px/18px sans-serif;
 	display: inline-block;
 	margin-right: -4px;
 	position: relative;
-	padding: 15px 20px;
-	background: #2C3E50;
+	padding: 14px 10px;
+	background: #efefef;
 	cursor: pointer;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	color: #fff;
+	color: #5a5a5a;
 }
 
 .nav ul li:hover {
-	background: #1abc9c;
-	color: #fff;
+	background: #efefef;
+	color: #5a5a5a;
 }
 
 .nav ul li ul {
@@ -60,13 +57,13 @@
 }
 
 .nav ul li ul li { 
-	background: #2C3E50; 
+	background: #efefef; 
 	display: block; 
-	color: #fff;
+	color: #5a5a5a;
 }
 
 .nav ul li ul li:hover {
-	background: #1abc9c;
+	background: #efefef;
 }
 
 .nav ul li:hover ul {
