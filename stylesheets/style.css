@@ -145,8 +145,7 @@
   font-size: 16px;
 }
 
-/*Time for the CSS*/
-.slider{
+.gallery{
 	width: 640px;
 	position: relative;
 	padding-top: 320px;
@@ -154,17 +153,17 @@
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
-.slider>img{
+.gallery>img{
 	position: absolute;
 	left: 0; top: 0;
 	transition: all 0.5s;
 }
 
-.slider input[name='slide_switch'] {
+.gallery input[name='switch'] {
 	display: none;
 }
 
-.slider label {
+.gallery label {
 	margin: 18px 0 0 18px;
 	border: 3px solid #999;
 	float: left;
@@ -173,21 +172,21 @@
 	opacity: 0.6;
 }
 
-.slider label img{
+.gallery label img{
 	display: block;
 }
 
-.slider input[name='slide_switch']:checked+label {
+.gallery input[name='switch']:checked+label {
 	border-color: #666;
 	opacity: 1;
 }
 
-.slider input[name='slide_switch'] ~ img {
+.gallery input[name='switch'] ~ img {
 	opacity: 0;
 	transform: scale(1.1);
 }
 
-.slider input[name='slide_switch']:checked+label+img {
+.gallery input[name='switch']:checked+label+img {
 	opacity: 1;
 	transform: scale(1);
 }
