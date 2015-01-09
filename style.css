@@ -186,13 +186,13 @@
 }
 
 .image {
-	position: absolute;
+	position: relative;
 	left: 150px;
 	top: 100px;
 }
 
 .image h2 {
-	position: relative;
+	position: absolute;
 	top: 165px;
 	left: 0;
 	width: 100%;
