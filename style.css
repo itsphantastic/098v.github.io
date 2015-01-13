@@ -188,8 +188,9 @@
 .flip {
 	width: 400px;
 	height: 300px;
-	margin: 20px auto;
+	margin: 70px auto;
 	perspective: 1000px;
+	left: 20px;
 }
 
 .flip a {
