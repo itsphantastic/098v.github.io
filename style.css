@@ -190,6 +190,7 @@
 	height: 300px;
 	margin: 70px auto;
 	perspective: 1000px;
+	position: relative;
 	left: 20px;
 }
 
