@@ -203,6 +203,7 @@
 	background-size: 0, cover;
 	transform-style: preserve-3d;
 	transition: all 0.5s;
+	font-family: 'Lato', sans-serif;
 }
 
 .flip:hover a {
