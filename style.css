@@ -6,7 +6,7 @@
 	padding: 14px 10px;
 	text-transform: uppercase;
 }
- 
+
 .nav li {
 	display: inline;
 }
@@ -18,48 +18,48 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
- 
+
 .jumbotron .container {
 	position: relative;
 	top:40px;
 }
- 
+
 .jumbotron h1 {
 	color: #fff;
-	font-size: 48px;  
+	font-size: 48px;
 	font-family: 'Helvetica-Neue', sans-serif;
 	font-weight: Lighter;
 }
- 
+
 .jumbotron p {
 	font-size: 20px;
 	color: #fff;
 }
- 
+
 .learn-more {
 	background-color: #f7f7f7;
 }
- 
+
 .learn-more h3 {
 	font-family: 'Helvetica', sans-serif;
 	font-size: 20px;
 	font-weight: Lighter;
 }
- 
+
 .learn-more a {
 	color: #00b0ff;
 }
- 
+
 .sample-art {
 	background-color: #efefef;
 	border-bottom: 1px solid #dbdbdb;
 }
- 
+
 .sample-art h2 {
 	color: #393c3d;
 	font-size: 24px;
 }
- 
+
 .sample-art p {
 	font-size: 15px;
 	margin-bottom: 13px;
@@ -186,19 +186,20 @@
 }
 
 .flip {
-	width: 400px;
-	height: 300px;
+	width: 450px;
+	height: 250px;
 	margin: 70px auto;
 	perspective: 1000px;
 	position: relative;
-	left: 20px;
+	right: 300px;
+	top: 0px;
 }
 
 .flip a {
 	display: block; width: 100%; height: 100%;
-	background: 
-		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-		url("http://i.imgur.com/NCSOfL4.png");
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("http://i.imgur.com/NCSOfL4.png");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
 	transition: all 0.5s;
@@ -209,8 +210,8 @@
 	transform-origin: bottom;
 }
 
-.flip  a:after {
-	content: ''; position: absolute; left: 0; bottom: 0; 
+.flip a:after {
+	content: ''; position: absolute; left: 0; bottom: 0;
 	width: 100%; height: 36px;
 	background: inherit; background-size: cover, cover;
 	background-position: bottom;
@@ -228,15 +229,247 @@
 .flip a:before {
 	content: ''; position: absolute; top: 0; left: 0;
 	width: 100%; height: 100%;
-	background: rgba(0, 0, 0, 0.5); 
+	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
-	transition: all 0.5s; 
+	transition: all 0.5s;
 	opacity: 0.15;
 	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
 	transform-origin: bottom;
 }
 
 .flip:hover a:before {
+	opacity: 1;
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.flip2 {
+	width: 450px;
+	height: 250px;
+	margin: 70px auto;
+	perspective: 1000px;
+	position: relative;
+	left: 300px;
+	top: -320px;
+}
+
+.flip2 a {
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("http://i.imgur.com/NCSOfL4.png");
+	background-size: 0, cover;
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+}
+
+.flip2:hover a {
+	transform: rotateX(80deg);
+	transform-origin: bottom;
+}
+
+.flip2 a:after {
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
+	background-position: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+
+.flip2 a span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+
+.flip2 a:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+
+.flip2:hover a:before {
+	opacity: 1;
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.flip3 {
+	width: 450px;
+	height: 250px;
+	margin: 70px auto;
+	perspective: 1000px;
+	position: relative;
+	left: -300px;
+	top: -320px;
+}
+
+.flip3 a {
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("http://i.imgur.com/NCSOfL4.png");
+	background-size: 0, cover;
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+}
+
+.flip3:hover a {
+	transform: rotateX(80deg);
+	transform-origin: bottom;
+}
+
+.flip3 a:after {
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
+	background-position: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+
+.flip3 a span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+
+.flip3 a:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+
+.flip3:hover a:before {
+	opacity: 1;
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.flip4 {
+	width: 450px;
+	height: 250px;
+	margin: 70px auto;
+	perspective: 1000px;
+	position: relative;
+	left: 300px;
+	top: -640px;
+}
+
+.flip4 a {
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("http://i.imgur.com/NCSOfL4.png");
+	background-size: 0, cover;
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+}
+
+.flip4:hover a {
+	transform: rotateX(80deg);
+	transform-origin: bottom;
+}
+
+.flip4 a:after {
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
+	background-position: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+
+.flip4 a span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+
+.flip4 a:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+
+.flip4:hover a:before {
+	opacity: 1;
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.flip5 {
+	width: 450px;
+	height: 250px;
+	margin: 70px auto;
+	perspective: 1000px;
+	position: relative;
+	left: 0px;
+	top: -640px;
+}
+
+.flip5 a {
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("http://i.imgur.com/NCSOfL4.png");
+	background-size: 0, cover;
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+}
+
+.flip5:hover a {
+	transform: rotateX(80deg);
+	transform-origin: bottom;
+}
+
+.flip5 a:after {
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
+	background-position: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+
+.flip5 a span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+
+.flip5 a:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+
+.flip5:hover a:before {
 	opacity: 1;
 	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
 	transform: rotateX(0) translateZ(-60px) scale(0.85);
