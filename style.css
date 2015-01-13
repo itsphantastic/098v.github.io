@@ -203,7 +203,6 @@
 	background-size: 0, cover;
 	transform-style: preserve-3d;
 	transition: all 0.5s;
-	font-family: 'Lato', sans-serif;
 }
 
 .flip:hover a {
@@ -220,9 +219,10 @@
 }
 
 .flip a span {
+	font-family: 'Lato', sans-serif;
 	color: white; text-transform: uppercase;
 	position: absolute; top: 100%; left: 0; width: 100%;
-	font: bold 12px/36px Montserrat; text-align: center;
+	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
