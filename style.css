@@ -280,7 +280,7 @@
 .flip2 a span {
 	color: white; text-transform: uppercase;
 	position: absolute; top: 100%; left: 0; width: 100%;
-	font: bold 12px/36px Montserrat; text-align: center;
+	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
@@ -338,7 +338,7 @@
 .flip3 a span {
 	color: white; text-transform: uppercase;
 	position: absolute; top: 100%; left: 0; width: 100%;
-	font: bold 12px/36px Montserrat; text-align: center;
+	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
@@ -396,7 +396,7 @@
 .flip4 a span {
 	color: white; text-transform: uppercase;
 	position: absolute; top: 100%; left: 0; width: 100%;
-	font: bold 12px/36px Montserrat; text-align: center;
+	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
@@ -454,7 +454,7 @@
 .flip5 a span {
 	color: white; text-transform: uppercase;
 	position: absolute; top: 100%; left: 0; width: 100%;
-	font: bold 12px/36px Montserrat; text-align: center;
+	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
