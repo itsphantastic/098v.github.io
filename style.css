@@ -221,7 +221,7 @@
 .flip a span {
 	font-family: 'Lato', sans-serif;
 	color: white; text-transform: uppercase;
-	position: absolute; top: 90%; left: 0; width: 100%;
+	position: absolute; top: 100%; left: 0; width: 100%;
 	font: 'Lato', sans-serif; text-align: center;
 	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
