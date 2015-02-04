@@ -137,6 +137,7 @@
 	font-size: 110%;
 	font-family: 'Lato', sans-serif;
 	position: relative;
+	bottom: 350px;
 	left: 50%;
 	width: 30em;
 	border: 0px solid #5a5a5a;
@@ -145,9 +146,9 @@
 
 .who-p img {
 	position: relative;
-	top: 70%;
-	left: 18%;
-	width: 350px;
+	bottom: -50px;
+	left: 200px;
+	width: 375px;
 }
 
 .gallery{
