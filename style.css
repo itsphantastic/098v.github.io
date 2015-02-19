@@ -145,7 +145,7 @@
 }
 
 .who-p img {
-	position: relative;
+	position: absolute;
 	bottom: -50px;
 	left: 200px;
 	width: 375px;
