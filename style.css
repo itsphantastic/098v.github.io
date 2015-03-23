@@ -86,7 +86,7 @@
 	color: #5a5a5a;
 	font-size: 70%;
 	position: absolute;
-	top: 175%;
+	top: 190%;
 	left: 0%;
 }
 
@@ -196,6 +196,72 @@
 	bottom: -50px;
 	left: 100px;
 	width: 600px;
+}
+
+.contact {
+	background-color: #efefef;
+}
+
+.contact p {
+	color: #2c3e50;
+	font-size: 110%;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	bottom: 50%;
+	right: -15%;
+	width: 30em;
+	border: 0px solid #5a5a5a;
+	word-wrap: break-word;
+}
+
+.contact h3 {
+	color: #2c3e50;
+	font-size: 350%;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	left: 15%;
+	width: 10em;
+	border: 0px solid #5a5a5a;
+	word-wrap: break-word;
+}
+
+.where {
+	background-color: #efefef;
+}
+
+.where p {
+	color: #2c3e50;
+	font-size: 110%;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	bottom: 170px;
+	right: -15%;
+	width: 30em;
+	border: 0px solid #5a5a5a;
+	word-wrap: break-word;
+}
+
+.where h3 {
+	color: #2c3e50;
+	font-size: 350%;
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 105px;
+	left: 15%;
+	width: 10em;
+	border: 0px solid #5a5a5a;
+	word-wrap: break-word;
+}
+
+.where img {
+	position: relative;
+	bottom: -80px;
+	left: 700px;
+	width: 600px;
+}
+
+.portback {
+	.background-color: #efefef;
 }
 
 .gallery{
