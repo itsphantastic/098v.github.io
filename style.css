@@ -14,7 +14,7 @@
 .jumbotron {
 	background-image:url('http://i.imgur.com/3k1pThT.jpg');
 	max-width: 100%;
-	height: auto;
+	height: 500px;
 	width: auto\9; /* ie8 */
 	background-repeat: no-repeat;
 	background-size: cover;
