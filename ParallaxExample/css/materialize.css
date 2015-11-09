@@ -1441,7 +1441,7 @@
   background-color: #795548 !important; }
 
 .brown-text {
-  color: #795548 !important; }
+  color: #4db6ac !important; }
 
 .brown.darken-1 {
   background-color: #6d4c41 !important; }
@@ -5108,7 +5108,8 @@ nav ul a span.badge {
       margin-left: 0; }
     .row .col.s12 {
       width: 100%;
-      margin-left: 0; }
+      margin-left: 0;
+      color: #2c3e50;}
     .row .col.offset-s1 {
       margin-left: 8.33333%; }
     .row .col.offset-s2 {
@@ -5169,7 +5170,7 @@ nav ul a span.badge {
         margin-left: 0; }
       .row .col.m12 {
         width: 100%;
-        margin-left: 0; }
+        margin-left: 0;}
       .row .col.offset-m1 {
         margin-left: 8.33333%; }
       .row .col.offset-m2 {
