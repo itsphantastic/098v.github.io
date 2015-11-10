@@ -5034,7 +5034,7 @@ nav ul a span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1920px;
   width: 90%; }
 
 @media only screen and (min-width : 601px) {
@@ -5433,7 +5433,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-size: 4.2rem;
-  line-height: 110%;
+  line-height: 334%;
   margin: 2.1rem 0 1.68rem 0; }
 
 h2 {
