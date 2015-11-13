@@ -2,4 +2,5 @@
 ==============
 
 A place where I'll be hosting my website for a college portfolio.
-There won't be much of anything else in here.
+The only things that will be here are some images that I've made,
+some concept sites, website tests, old sites, etc.
