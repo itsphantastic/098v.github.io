@@ -1078,6 +1078,10 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+li:hover {
+  color: #27ae60;
+  transition: 0.3s ease-in;
+}
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -3868,8 +3872,8 @@ input[type="button"].btn-block {
 }
 .btn-default.inverse,
 .btn-inverse .btn-default {
-  border-color: #fff;
-  color: #fff;
+  border-color: #2ecc71;
+  color: #2ecc71;
 }
 .btn-default.inverse:hover,
 .btn-inverse .btn-default:hover,
@@ -3884,8 +3888,8 @@ input[type="button"].btn-block {
 .open > .dropdown-toggle.btn-default.inverse,
 .open > .dropdown-toggle.btn-inverse .btn-default {
   color: #252525;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 @-webkit-keyframes btnCircleLoading {
   from {
@@ -3973,6 +3977,7 @@ input[type="button"].btn-block {
   position: relative;
   top: 3px;
   width: 100%;
+  color: #27ae60;
 }
 .btn-decorator .btn:hover:after,
 .btn-decorator .btn:focus:after {

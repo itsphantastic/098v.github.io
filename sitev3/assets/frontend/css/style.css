@@ -1146,6 +1146,10 @@ div #name-bold{
 .mbr-contacts__text {
   margin: 0;
 }
+.mbr-contacts__text:hover{
+  color:#27ae60;
+  transition: 0.3s ease-in;
+}
 .mbr-contacts__header {
   color: #fff;
   font-size: 14px;
