@@ -20,6 +20,9 @@
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
   background: #444444;
 }
+#menu-0 .mbr-navbar__section {
+  background: #444444;
+}
 #menu-0 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -29,6 +32,9 @@
   font-size: 16px;
 }
 #menu-20.mbr-navbar--stuck .mbr-navbar__section {
+  background: #444444;
+}
+#menu-20 .mbr-navbar__section {
   background: #444444;
 }
 #menu-20 .mbr-brand__name a {

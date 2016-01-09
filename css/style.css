@@ -12,6 +12,7 @@ body {
 }
 body {
 	font-size: 15px;
+	text-align: justify;
 	line-height: 1.50;
 	color: #333333;
 	background-color: #ffffff;
@@ -165,6 +166,7 @@ blockquote {
 }
 .translucent-bg {
 	color: #efefef;
+	text-align: left;
 }
 .default-bg h1,
 .default-bg h2,
