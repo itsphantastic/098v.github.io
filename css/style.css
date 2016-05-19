@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 .site-name {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 html,
 body {
@@ -703,7 +703,7 @@ textarea {
 	left: 50%;
 	top: 50%;
 	font-size: 18px;
-	line-height: 1x;
+	line-height: 1px;
 	color: #ffffff;
 	margin-top: -8px;
 	margin-left: -8px;
