@@ -1,11 +1,11 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="098v.github.io" resolutions="1x" timestamp="1463681291254">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="098v.github.io" resolutions="1x" timestamp="1463775287133">
   <folder name="css">
-    <file name="site_global.css" crc="121210687"/>
-    <file name="master_a-master.css" crc="3861783440" ref="index"/>
-    <file name="index.css" crc="3854138020" ref="index"/>
+    <file name="site_global.css" crc="235286651"/>
+    <file name="master_a-master.css" crc="3777386123" ref="index"/>
+    <file name="index.css" crc="3828269989" ref="index"/>
     <file name="iefonts_index.css" crc="319957298" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3878760589" ref="index"/>
-    <file name="nomq_index.css" crc="366134034" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="4124908409" ref="index"/>
+    <file name="nomq_index.css" crc="350827476" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
@@ -23,6 +23,7 @@
     <file name="form_process.php" crc="54267062" ref="index"/>
     <file name="form-u587.php" crc="42995774" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3895133147" ref="index"/>
+    <file name="musewpdisclosure.js" crc="4234230767" ref="index"/>
   </folder>
   <folder name="images">
     <file name="a-master-favicon.ico" crc="3929707099" ref="index"/>
@@ -60,6 +61,7 @@
     <file name="crowcircle-crop-u67103.jpg" crc="91795691" ref="index"/>
     <file name="magad-crop-u68003.jpg" crc="4233138038" ref="index"/>
     <file name="owl-crop-u68203.jpg" crc="3808735365" ref="index"/>
+    <file name="menu.png" crc="460456694" ref="index"/>
   </folder>
-  <file name="index.html" crc="3768316783" seo="true" mt="1463681257804" redirect="true"/>
+  <file name="index.html" crc="4182411085" seo="true" mt="1463775211749" redirect="true"/>
 </manifest>

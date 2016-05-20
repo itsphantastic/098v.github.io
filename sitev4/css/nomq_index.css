@@ -16,83 +16,155 @@
 
 	#u2568
 	{
+		z-index: 183;
 		left: -580px;
+	}
+
+	#u2397
+	{
+		z-index: 188;
+	}
+
+	#u2380-4
+	{
+		z-index: 184;
 	}
 
 	#u2130
 	{
+		z-index: 158;
 		width: 696px;
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 26px;
+		margin-left: 50%;
 		left: -116px;
 	}
 
 	#u1005-4
 	{
+		z-index: 179;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
 		left: -348px;
 	}
 
 	#u1005-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
 		left: -348px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u6967-4
 	{
+		z-index: 163;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
 		left: -232px;
 	}
 
 	#u6967-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
 		left: -232px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u1013-4
 	{
+		z-index: 167;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
 		left: -116px;
 	}
 
 	#u1013-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
 		left: -116px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u1009-4
 	{
+		z-index: 159;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
+		left: 0px;
 	}
 
 	#u1009-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
+		left: 0px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u1017-4
 	{
+		z-index: 171;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
 		left: 116px;
 	}
 
 	#u1017-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
 		left: 116px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u1021-4
 	{
+		z-index: 175;
 		width: 116px;
+		min-height: 23px;
+		position: relative;
+		margin-right: -10000px;
+		margin-left: 50%;
 		left: 232px;
 	}
 
 	#u1021-4:hover
 	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 23px;
 		width: 116px;
 		left: 232px;
+		margin: 0px -10000px 0px 50%;
 	}
 
 	#u2916
@@ -114,8 +186,8 @@
 
 	#u1941-4
 	{
-		font-size: 100px;
 		line-height: 120px;
+		font-size: 100px;
 		margin-top: 115px;
 	}
 
