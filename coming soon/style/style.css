@@ -1,0 +1,36 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+.wrapper video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover
+}
+.visit {
+	text-align: center;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 32px;
+	position: relative;
+	color: #efefef;
+}
+.visit a {
+	text-decoration: none;
+	color: #efefef;
+}
+.visit a:hover {
+	color: #2ecc71;
+	transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+}
