@@ -101,3 +101,21 @@ body {
 .emailform input[type="submit"]:hover {
 	background-color: #24a35a;
 }
+
+.socialmedia {
+	position: relative;
+	top: 235px;
+	right: 195px;
+}
+
+.socialmedia img{
+	width: 25px;
+	opacity: 0.5;
+	transition: ease-in-out 0.2s;
+	margin-left: 5px;
+}
+
+.socialmedia img:hover{
+	opacity: 1;
+	transform: scale(1.4)
+}
