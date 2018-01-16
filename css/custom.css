@@ -1,5 +1,9 @@
 /*CSS that will be tested*/
 
+.lead .text-center {
+	font-weight: 400 !important;
+}
+
 /* Test Scrollbar */
 
 ::-webkit-scrollbar {
@@ -42,4 +46,9 @@
 
 ::-webkit-scrollbar-corner {
 	background: transparent;
+}
+
+.meTEST {
+	border-radius: 1000px;
+	margin: 0 auto;
 }
