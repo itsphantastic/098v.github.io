@@ -1,40 +1,329 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Coming Soon</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-	<div class="wrapper">
-		<video autobuffer autoloop autoplay loop>
-			<source src="typing.mp4" type="video/mp4">
-			<source src="typing.webm" type="video/webm">
-		</video>
-		<div class="top">
-			<div class="logo"><img src="images/logo.png"></div>
-			<div class="navione">
-				<a href="#">About</a>
-			</div>
-			<div class="navitwo">
-				<a href="#">Contact</a>
-			</div>
+	<head>
+		<title>Alison Phan Design</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta name="description" content="Alison Phan is a Graphic Designer. Focusing on web development & Mobile Applications." />
+		<meta name="format-detection" content="telephone=no">
+		<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="icon" 
+      type="images/png" 
+      href="images/icon.png" />
+
+<link rel="stylesheet" media="(min-width: 1025px)" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.css">
+
+<link rel="stylesheet" type="text/css" src="product-quick-view/css/style.css">
+
+<link rel="stylesheet" media="(max-width: 1024px)" type="text/css" href="tablet.css" />
+
+<link rel="stylesheet" media="(orientation:landscape) and (min-device-width:320px) and (max-device-width: 899px)" type="text/css" href="mobile.css" />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	</head>
+
+<div class="wrapper">
+<body id="top">
+<header>
+<section class="shrink">
+  
+	<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt="images"/></a>
 		</div>
-		<div class="wrapper">
-			<h1>COMING <span class="soongrn">SOON</span></h1>
-			<div class="comingtxt">I am currently working on rebuilding my portfolio. While that's being built, click the button below to see my old portfolio!</div>
-			<div class="oldstuff">
-				<a href="old.html">Click Me!</a>
-			</div>
-		</div>
+
+		<div class="navmenu">
+				
+			<nav class="social">
+				<a href="#mail"><img class="sns" src="images/mail.png" alt="images"/ onmouseover="this.src='images/mail2.png'" onmouseout="this.src='images/mail.png'"></a>
+
+				<a href="https://www.facebook.com/fawntasticc" target="_blank"><img class="sns" src="images/fb.png" alt="images"/ onmouseover="this.src='images/fb2.png'" onmouseout="this.src='images/fb.png'"></a>
+		        
+		        <a href="https://www.instagram.com/itsphantastic/" target="_blank"><img class="sns" src="images/ig.png" alt="images"/ onmouseover="this.src='images/ig2.png'" onmouseout="this.src='images/ig.png'"></a>
+		        </nav>
+
+<TD>
+
+		<nav class="menu">
+					
+			<ul>
+			<li><a href="#port">PORTFOLIO</a>
+			</li>
+			<li><a href="#about">ABOUT</a>
+			</li>
+			<li><a href="#contact">CONTACT</a>
+			</li>
+			</ul>
+		</nav>
 	</div>
-	<footer class="foot">
-		<div class="centertxt">
-			Made with <span class="heart">♥</span> by Omar Anwari
-			<br>
-			© 20XX All Rights Reserved
 		</div>
-	</footer>
+
+</section>
+</header>
+
+</div>
+ <div id="slider">
+	<div class="carousel">
+
+		<input checked type="radio" name="slide" class="control" id="Slide1"/>
+			<label for="Slide1" id="s1">
+			</label>
+		<input type="radio" name="slide" class="control" id="Slide2"/>
+			<label for="Slide2" id="s2">
+			</label>
+		<input type="radio" name="slide" class="control" id="Slide3"/>
+			<label for="Slide3" id="s3">
+			</label>
+		<input type="radio" name="slide" class="control" id="Slide4"/>
+			<label for="Slide4" id="s4">
+			</label>
+
+		<div class="overflow">
+			<ul>
+				<a class="slide" href="">
+					<img src="images/_DSC1741.jpg"/>
+				</a>
+				<a class="slide" href="">
+					<img src="images/mock-up1.jpg"/>
+				</a>
+				<a class="slide" href="">
+					<img src="images/mock-up2.jpg"/>
+				</a>
+				<a class="slide" href="">
+					<img src="images/mochi.jpg"/>
+				</a>
+			</ul>
+</div>
+	</div>
+		</div>
+
+    <h6 id="port"></h6>
+        <ul class="sort">
+          	<li><a class="branding">Branding</a>
+          	</li>
+          	<li><a class="photography">Photography</a>
+          	</li>
+          	<li><a class="web">Web Development</a></li>
+          	<li><a class="mobile">Mobile Applications</a>
+          	</li>
+        </ul>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div class="promo">  
+<img src="images/holiday.jpg" alt="images" id="drawing">
+
+	
+	<div class="branding">
+		<li content-price="135">       	
+			<img src="images/cover.jpg" onclick="showPrompt('annual')"alt="images" id="annual">
+			<!-- on click trigger
+			<a href="#0" class="cd-trigger">Quick View</a> -->
+			<p><span style="margin:43% 0px 0px 65.1%;">Muji
+				<br></span>
+			<span style="margin:2% 0px 0px 65.1%;" class="name">Annual Report</span><br>
+			
+		</li>
+	</div>
+	</ul>
+
+</div>
+
+<div class="photo">
+<ul>
+	<div class="branding">
+	    <li content-price="325">        
+		<img src="images/shiseido-cover.jpg" alt="images" id="shi">
+		<!-- on click trigger 
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Shiseido<br>
+		<span class="name">Brand Guidelines</span>
+		<br>
+		</li>
+	</div>
+	          
+	<div class="web">
+		<li content-price="95">    
+		<img src="images/mockup(creative).jpg" alt="images" id="creative">
+		<!-- on click trigger
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Creative Therapy Design<br>
+		<span class="name">Web Development</span>
+		<br>
+		</li>
+	</div>
+
+	<div class="branding">
+		<li content-price="55">   
+		<img src="images/yuseafood1.jpg" alt="images" id="yu">
+		<!-- on click trigger 
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Yu Seafood<br>
+		<span class="name">Social Media Branding</span>
+		<br>
+		</li>
+	</div>
+
+	<div class="web">
+		<li content-price="75">    
+		<img src="images/mockup(yu2).jpg" alt="images" id="yu_web">
+		<!-- on click trigger
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Yu Seafood<br>
+		<span class="name">E-Commerce System</span>
+		<br>
+		</li>
+	</div>
+
+	<div class="photography">
+		<li content-price="125">
+		<img src="images/photography1.jpg" alt="images" id="photo">
+		<!-- on click trigger 
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Alison Phan Design<br>
+		<span class="name">Landscape</span><br>
+		</li>
+	</div>
+
+	<div class="photography">
+		<li content-price="375">
+		<img src="images/realty1.png" alt="images" id="realty">
+		<!-- on click trigger
+		<a href="#0" class="cd-trigger">Quick View</a> -->
+		<p>Timon Realtor<br>
+		<span class="name">Realty Photography</span><br>
+		</li>
+	</div>
+
+	<div class="hidden">
+		<div class="mobile">
+			<li content-price="85">
+			<img src="images/foodpal_1.jpg" alt="images" id="food">
+			<!-- on click trigger 
+			<a href="#0" class="cd-trigger">Quick View</a> -->
+			<p>FoodPal<br>
+			<span class="name">Mobile Application</span><br>
+			</li>
+		</div>
+
+		<div class="local">
+			<li content-price="275">
+			<img src="images/photography1.jpg" alt="images" id="geoduck">
+			<p>Vancouver<br>
+			<span class="name">Geoduck</span>
+			<br>
+			</li>
+		</div>
+
+		<div class="japan">
+			<li content-price="145">
+			<img src="images/photography1.jpg" alt="images" id="uni">
+			<p>Hokkaido<br>
+			<span class="name">Uni</span>
+			<br>
+			</li>
+</ul>
+	</div>
+	<a href="#" id="loadMore">Load More</a>
+</div>
+
+
+<div class="contact-wrap">
+	<section class="contact-word">
+	<h4 id="line"><span style="font-size:45px; color:#fff;"><em>Let's<br> Connect</em></span></h4>
+	</section>
+	<h6 id="about"></h6>
+		<div class="contact-left">
+			
+			<P class="contact-p">
+				We've come a long way haven't we? However the journey is just beginning.<BR/>
+				<BR/>
+				All Highway Miles, it's a term used when talking about how much mileage a car has covered, it's a term reserved for only the most well travelled of cars. But you see, that's not always a bad thing. On a trip oftentimes the places you've been along the way to wherever it is you're going are just as important as the places you've arrived at. A seemingly disastrous wrong turn away from the bright lights of the city could lead you to one of those long beaches that everyone seems to love to walk on.
+				<BR/>
+				<BR/>
+				It's a lot like design. Sometimes you start with a destination in mind but get lost along the way. Sometimes you make happy mistakes and end up at places you never would have realized you wanted to go. Design is as much about getting where you need to be as it is about getting started and letting the project morph and evolve with what each step of the process reveals to you about what you started off wanting and what you really needed. That's the beauty of it.
+ 
+
+			</P>
+
+        <div class="contact-right">
+			<P class="contact-pr"> 
+ 				<div class="submit">
+ 					<h1 id="mail"></h1>
+ 					<form action="mailto:alisonphandesign@gmail.com" method="post" enctype="text/plain">
+ 					<select id="options" type="Products" name="subject" style="font-size:15px;">
+				  	<option value="branding">Branding</option>
+				  	<option value="photo">Photography
+				  	</option>
+				  	<option value="Web">Web Development
+				  	</option>
+				  	<option value="app">Mobile Applications
+				  	</option>
+					</select>
+
+					<section class="first-name">
+					<input type="text" placeholder="NAME">
+						<h2>Empty Field
+						</h2>
+					</section>
+
+					<section class="email">
+					<input type="text" placeholder="E-MAIL">
+						<h2>Empty Field
+						</h2>
+					</section>
+
+					<section class="message">
+					<textarea placeholder="MESSAGE">
+					</textarea>
+						<h2>Empty Field
+						</h2>
+					</section><br>
+					<button>Submit</button>
+			</p>
+		</div>
+
+          
+         		 <div class="recieved">
+          			<h5>Your message has been recieved. Sit back and we'll get back to you!</h5>
+         		 </div>
+</div>
+		</div>
+				</div>
+
+
+<div class="footer">
+	<h6 id="contact"></h6>
+	<p>© COPYRIGHT 2017 ALISON PHAN. ALL RIGHTS RESERVED. DESIGNED BY ALISON PHAN DESIGN
+	</p>
+
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaVxqsPJFO1qVRwt4PoG2B0qbLZ4kRAXw&callback=myMap"
+  	type="text/javascript"></script>
+	<script src="product-quick-view/js/jquery-2.1.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.js"></script>
+
+	<script src="product-quick-view/js/velocity.min.js"></script>
+	<script src="product-quick-view/js/main.js"></script>
+
+
 </body>
+
 </html>
