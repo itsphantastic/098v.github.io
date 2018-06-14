@@ -1,3 +1,4 @@
+
 * {
 	animation-delay: 0.5ms;
 }
@@ -56,7 +57,7 @@ body {
 	bottom: -5px;
 	left: -12px;
 	width: 0%;
-	border-bottom: 2px solid #2ecc71;
+	border-bottom: 2px solid #3cc0c4;
 	transition: 0.4s;
 }
 .navione a:hover:after {
@@ -81,7 +82,7 @@ body {
 	bottom: -5px;
 	left: -12px;
 	width: 0%;
-	border-bottom: 2px solid #2ecc71;
+	border-bottom: 2px solid #3cc0c4;
 	transition: 0.4s;
 }
 .navitwo a:hover:after {
@@ -120,7 +121,7 @@ body {
 	position: relative;
 	top: 300px;
 	border-style: solid;
-	border-color: #efefef;
+	border-color: #f9dc30;
 	border-width: 2px;
 	border-radius: 5px;
 	width: 90px;

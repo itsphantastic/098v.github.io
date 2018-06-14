@@ -1,7 +1,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/Artboard 12.png');
+		$(".banner-image").backstretch('images/Artboard.png');
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -100,5 +100,70 @@
 			});
 		}
 
-	}); // End document ready
+	}); 
+
+//form error true
+//----------------------------------------------------------
+$('.submit input').click(function() {
+  var firstName = $('.first-name input').val();
+  var lastName = $('.last-name input').val();
+  var email = $('.email input').val();
+  var message = $('.message textarea').val();
+});
+
+$('.submit button').click(function() {
+  $('.submit h2').slideDown();
+  var wordCount = $('.first-name input').val().length;
+  if(wordCount==0) {
+    $('.first-name h2').slideDown(500);
+    $('.recieved h5').slideUp();
+  }else{(wordCount>1)
+    $('.first-name h2').slideUp();
+    $('.recieved h5').slideDown(500);
+  }
+  var wordLength = $('.last-name input').val().length;
+  if(wordLength==0) {
+    $('.last-name h2').slideDown(500);
+    $('.recieved h5').slideUp();
+  }else{(wordLength>1)
+    $('.last-name h2').slideUp();
+     $('.recieved h5').slideDown(500);
+  }
+  var mail = $('.email input').val().length;
+  if(mail==0) {
+    $('.email h2').slideDown(500);
+    $('.recieved h5').slideUp();
+  } else {(mail>1)
+    $('.email h2').slideUp();
+     $('.recieved h5').slideDown(500);
+  }
+  var msg = $('.message textarea').val().length;
+  if(msg==0) {
+    $('.message h2').slideDown(500);
+    $('.recieved h5').slideUp();
+  }else{(msg>1)
+    $('.message h2').slideUp();
+     $('.recieved h5').slideDown(500);
+  }
+});
+
+$('.submit-1 input').click(function() {
+  var firstName = $('.first-name input').val();
+  var lastName = $('.last-name input').val();
+  var email = $('.email input').val();
+  var visa = $('.visa input').val();
+});
+
+
+//fade in page
+//---------------------------------------------------------------
+$(document).ready(function(){
+
+/*! Fades in page on load */
+$('body').css('display', 'none');
+$('body').fadeIn(800);
+
+});
+
+	// End document ready
 })(this.jQuery);
