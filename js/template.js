@@ -1,7 +1,6 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/Artboard.png');
 		
 		// Fixed header
 		//-----------------------------------------------
